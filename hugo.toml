@@ -1,0 +1,24 @@
+baseURL = 'https://euphonie.github.io/'
+languageCode = 'en-us'
+title = 'Profile'
+theme = 'hugo-theme-monochrome'
+enableEmoji = true
+paginate = 10
+enableGitInfo = true
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+[params]
+navbar_title = "Ei!"
+footer = "Copyright © euphonie"
+enable_collapsible_toc = true
+enable_collapsible_changelogs = true
+enable_math = true
+author = "euphonie"
+color_scheme = "dark"
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
