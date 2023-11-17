@@ -12,13 +12,35 @@ tag = "tags"
 series = "series"
 
 [params]
-navbar_title = "Ei!"
-footer = "Copyright © euphonie"
+navbar_title = "Fair winds and following seas!"
+footer = "Copyright © 2023 euphonie"
+author = "euphonie"
+color_scheme = "dark"
 enable_collapsible_toc = true
 enable_collapsible_changelogs = true
 enable_math = true
-author = "euphonie"
-color_scheme = "dark"
+
+[list_layout]
+enable_group_by_year = true
+enable_show_date = true
+enable_pagination = false
+
+[goldmark.renderer]
+unsafe= true
+
+[highlight]
+anchorLineNos = false
+codeFences = false
+guessSyntax = false
+hl_Lines = ""
+lineAnchors = ""
+lineNoStart = 1
+lineNos = false
+lineNumbersInTable = true
+noHl = false
+noClasses = true
+style = "monokai"
+tabWidth = 4
 
 [outputs]
 home = ["HTML", "RSS", "JSON"]
